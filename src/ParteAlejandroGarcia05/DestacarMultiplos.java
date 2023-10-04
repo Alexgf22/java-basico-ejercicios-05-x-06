@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class resaltaLosMultiplos {
+public class DestacarMultiplos {
 
 
     public static void resaltarMultiplos(int[] array, int num) {

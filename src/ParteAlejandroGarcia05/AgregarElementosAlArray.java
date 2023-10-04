@@ -2,7 +2,7 @@ package ParteAlejandroGarcia05;
 
 import java.util.Arrays;
 
-public class ej2 {
+public class AgregarElementosAlArray {
     public static void main(String[] args) {
 
         char[] caracteres = new char[10];

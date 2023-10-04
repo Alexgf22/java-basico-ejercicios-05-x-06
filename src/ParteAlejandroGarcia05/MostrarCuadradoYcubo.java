@@ -2,7 +2,7 @@ package ParteAlejandroGarcia05;
 
 import java.util.Random;
 
-public class ej4 {
+public class MostrarCuadradoYcubo {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package ParteAlejandroGarcia05;
 
 import java.util.Scanner;
 
-public class voltearElArray {
+public class VoltearElArray {
 
     public static void main(String[] args) {
         int[] numeros = new int[10];

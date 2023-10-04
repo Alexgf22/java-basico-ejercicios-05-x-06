@@ -2,7 +2,7 @@ package ParteAlejandroGarcia05;
 
 import java.util.Scanner;
 
-public class ej8 {
+public class RepresentarTemperaturasMedia {
 
     public static void main(String[] args) {
 

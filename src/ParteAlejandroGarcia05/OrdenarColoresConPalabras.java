@@ -2,7 +2,7 @@ package ParteAlejandroGarcia05;
 
 import java.util.Scanner;
 
-public class ej14 {
+public class OrdenarColoresConPalabras {
 
     public static void main(String[] args) {
 

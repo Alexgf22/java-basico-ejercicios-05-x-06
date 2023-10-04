@@ -3,7 +3,7 @@ package ParteAlejandroGarcia05;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ej6 {
+public class RotarElArray {
 
     public static void main(String[] args) {
 

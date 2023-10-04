@@ -3,7 +3,7 @@ package ParteAlejandroGarcia05;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class ej10 {
+public class OrdenarParesEimpares {
 
     public static void main(String[] args) {
 
