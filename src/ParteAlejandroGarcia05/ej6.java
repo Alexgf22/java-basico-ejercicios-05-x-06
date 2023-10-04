@@ -13,8 +13,17 @@ public class ej6 {
 
 
         for(int i= 0; i < 15; i++) {
-            System.out.println("Introduce un número: ");
-            int numero = scanner.nextInt();
+            int numero;
+            while(true) {
+                System.out.print("Introduce un número entero: ");
+                if (scanner.hasNextInt()) {
+                    numero = scanner.nextInt();
+                    break;
+                } else {
+                    System.out.println("Error. Por favor, introduce un número entero.");
+                    scanner.next();
+                }
+            }
             numeros[i] = numero;
         }
         System.out.println("Números sin rotar: " + Arrays.toString(numeros));

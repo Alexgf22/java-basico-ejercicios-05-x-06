@@ -13,8 +13,17 @@ public class ej8 {
 
 
         for (int i = 0; i < 12; i++) {
-            System.out.println("Introduce la temperatura media de " + meses[i] + ": ");
-            int temperatura = scanner.nextInt();
+            int temperatura;
+            while(true) {
+                System.out.print("Introduce la temperatura media de " + meses[i] + ": ");
+                if (scanner.hasNextInt()) {
+                    temperatura = scanner.nextInt();
+                    break;
+                } else {
+                    System.out.println("Error. Por favor, introduce un número entero.");
+                    scanner.next();
+                }
+            }
             mediaTemperaturas[i] = temperatura;
         }
 

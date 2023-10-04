@@ -16,8 +16,18 @@ public class ej14 {
         int contadorNoColores = 0;
 
         for (int i = 0; i < 8; i++) {
-            System.out.println("Introduce una palabra: ");
-            String palabra = scanner.next();
+
+            String palabra;
+            while(true) {
+                System.out.print("Introduce una palabra: ");
+                if (scanner.hasNext()) {
+                    palabra = scanner.next();
+                    break;
+                } else {
+                    System.out.println("Error. Por favor, introduce un string.");
+                    scanner.next();
+                }
+            }
 
             boolean esColor = false;
 

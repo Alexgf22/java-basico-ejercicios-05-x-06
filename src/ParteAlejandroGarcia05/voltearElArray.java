@@ -9,8 +9,17 @@ public class voltearElArray {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 0; i < 10; i++) {
-            System.out.print("Introduce el número " + (i + 1) + ": ");
-            numeros[i] = scanner.nextInt();
+
+            while(true) {
+                System.out.print("Introduce el número " + (i + 1) + ": ");
+                if (scanner.hasNextInt()) {
+                    numeros[i] = scanner.nextInt();
+                    break;
+                } else {
+                    System.out.println("Error. Por favor, introduce un número entero.");
+                    scanner.next();
+                }
+            }
         }
 
         System.out.println("Array original:");
