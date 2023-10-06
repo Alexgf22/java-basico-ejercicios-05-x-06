@@ -28,7 +28,7 @@ public class Exercise5 extends Exercise {
         ArrayList<Integer> arrayList = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
-            arrayList.add(Validation.getInt(getInputs().get(0)));
+            arrayList.add(io.toInt(getInputs().get(0)));
         }
 
         io.write(markMaxMin(arrayList));

@@ -5,7 +5,6 @@ import mauridjango.ui.IO;
 import mauridjango.ui.Validation;
 
 import java.util.ArrayList;
-import java.util.Queue;
 
 public class Exercise3 extends Exercise {
     String exerciseName = "Exercise 3";
@@ -28,7 +27,7 @@ public class Exercise3 extends Exercise {
     public void run() {
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            int number = Validation.getInt(getInputs().get(0));
+            int number = io.toInt(getInputs().get(0));
             arrayList = queue(number, arrayList);
         }
     }

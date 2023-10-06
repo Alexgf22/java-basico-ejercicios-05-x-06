@@ -1,6 +1,6 @@
 package mauridjango.group;
 
-import mauridjango.exercise.Exercise;
+import mauridjango.exercise.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;

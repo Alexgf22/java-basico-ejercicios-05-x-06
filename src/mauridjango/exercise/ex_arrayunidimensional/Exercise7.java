@@ -23,8 +23,13 @@ public class Exercise7 extends Exercise {
 
     @Override
     public void run() {
-
+        String string = "";
+        for (int i = 0; i < 100; i++) {
+            string += String.format("%d ", getNumber());
+        }
     }
 
-    private
+    private int getNumber() {
+        return (int) Math.round(Math.random()*20);
+    }
 }
